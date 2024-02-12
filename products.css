@@ -1,0 +1,52 @@
+.up {
+    display: flex;
+    background-color: rgb(20, 44, 54);  
+    width: 100%;
+    font-size: 11px;
+    position: fixed;
+  }
+
+  .noMargin {
+    margin: 0%;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: flex-start;
+    scale: 60%;
+    width: 100;
+    max-width: 100%;
+  }
+
+  .image {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 85px;
+    height: 85px;
+    width: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .noText {
+    color: white;
+    text-decoration: none;
+    font-style: unset;
+  }
+  
+  .noText:hover {
+    color: rgb(215, 204, 204);
+  }
+
+  .space {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 3%;
+  }
+
+  @media (max-width: 851px) {
+    .hidden {
+      display: none;
+    }
+  }
