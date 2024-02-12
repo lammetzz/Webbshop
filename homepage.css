@@ -16,7 +16,6 @@
     scale: 70%;
     width: 100px;
     max-width: 100%;
-    margin-right: 40px;
   }
 
   .image {
@@ -51,7 +50,9 @@
     color: white;
     justify-content: center;
     flex-direction: column;
-    margin-right: 20px;
-    margin-left: 20px;
     scale: 130px;
+  }
+
+  ul{
+    list-style-type: none;
   }
