@@ -1,0 +1,23 @@
+.border{
+    border: 0.2vh solid;
+}
+
+.box{
+    max-width: 275px;
+    height: 300px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.img{
+    scale: 150%;
+    margin-bottom: 50px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
