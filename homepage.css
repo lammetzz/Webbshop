@@ -16,6 +16,7 @@
     scale: 70%;
     width: 100px;
     max-width: 100%;
+    margin-right: 40px;
   }
 
   .image {
@@ -43,4 +44,14 @@
     align-items: center;
     width: 100%;
     gap: 3%;
+  }
+
+  .logoText{
+    display: flex;
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-left: 20px;
+    scale: 130px;
   }
