@@ -20,15 +20,15 @@
     scale: 70%;
   }
 
+  .logo:hover{
+    scale: 72%;
+    transition: 0,3s ease-in-out;
+  }
+  
   .logoFooter {
     display: flex;
     justify-content: flex-start;
     scale: 70%;
-  }
-
-  .logo:hover{
-    scale: 72%;
-    transition: 0,3s ease-in-out;
   }
 
   .noText {
@@ -44,7 +44,7 @@
   }
   
   .noText:hover {
-    color: rgb(100, 95, 95)
+    color: rgb(69, 66, 66)
   }
 
   .space {
@@ -113,9 +113,15 @@
     color: white;
   }
 
-  .width{
+  .widthLeft{
     max-width: 300px;
     margin: 30px;
+  }
+
+  .widthRight{
+    max-width: 300px;
+    margin: 30px;
+    text-align: center;
   }
 
   .justify{
@@ -124,7 +130,7 @@
     flex-direction: column;
   }
 
-  .center {
+  .centerFooter {
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -137,4 +143,41 @@
 
   .noTextTwo:hover{
     color: rgb(188, 181, 181);
+  }
+
+  .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 15%;
+    margin-left: 15%;
+    text-align: center;
+  }
+
+  .topMargin{
+    margin-top: 40px;
+  }
+
+  .botMargin{
+    margin-bottom: 40px;
+  }
+
+  @media (max-width: 790px) {
+    .hidden {
+      display: none;
+    }
+  }
+
+  @media (max-width: 400px ) {
+    .hiddenIcons {
+      display: none;
+    }
+  }
+
+  @media (max-width: 600px) {
+    footer {
+      flex-direction: column;
+      align-items: center;
+    }
   }
