@@ -17,6 +17,10 @@
     
 }
 
+.text{
+    margin-left: 17vh;
+}
+
 .divBox:hover{
     scale: 1.05;
     transition: 0.3s ease-in-out;
@@ -26,20 +30,24 @@
     margin-top: 5px;
 }
 
-.center{
+.centerImg{
     display: flex;
     justify-content: center;
 }
 
 .img{
-    scale: 90%;
+    scale: 78%;
+}
+
+.imgCan{
+    scale: 80%;
 }
 
 .textGap{
     margin-right: 3vh;
 }
 
-.row{
+.rowImg{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -53,4 +61,10 @@
 .noBotMargin{
     margin-bottom: 0px;
     margin-top: 13px;
+}
+
+.textLink{
+    text-decoration: none;
+    color: black;
+    
 }
