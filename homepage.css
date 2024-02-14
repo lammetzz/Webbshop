@@ -106,6 +106,12 @@ h2{
   margin-right: 20px;
 }
 
+.rowImg{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
 footer{
   display: flex;
   justify-content: center;
@@ -161,6 +167,16 @@ footer{
 
 .botMargin{
   margin-bottom: 40px;
+}
+
+.homePageBoxRight{
+  max-width: fit-content;
+  max-height: auto;
+}
+.homePageBoxLeft{
+  margin-left: 30px;
+  margin-right: 30px;
+  width: 700px;
 }
 
 @media (max-width: 790px) {
