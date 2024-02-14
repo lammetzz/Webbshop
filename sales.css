@@ -10,7 +10,7 @@
 .box{
     max-width: 100%;
     height: 34vh;
-    width:17vw;
+    width: 19vw;
     box-shadow: 5px 5px 10px  lightcoral inset;
 }
 
@@ -28,17 +28,29 @@
     padding: 8%;
     padding-bottom: 0%;
     box-shadow: 5px 5px 10px  lightcoral;
-    max-width: 50vh;
-    margin-right: 2.5vw;
-    margin-left: 2.5vw;
     margin-top: 4vh;
+    max-width: 100%;
 }
 
-.column{
-    display: flex;
-    flex-direction: column;
+.shadow{
+    box-shadow: 5px 5px 10px rgb(128, 121, 121);
+    padding: 8%;
+    padding-bottom: 0%;
+    margin-top: 4vh;
+    max-width: 100%;
 }
 
+.shadowTwo{
+    box-shadow: 5px 5px 10px rgb(128, 121, 121) inset;
+    max-width: 100%;
+    height: 34vh;
+    width: 32vw;
+}
+
+.shadow:hover{
+    scale: 1.05;
+    transition: 0.3s ease-in-out;
+}
 
 .divBox:hover{
     scale: 1.05;
@@ -65,38 +77,58 @@
 
 .img{
     scale: 78%;
-    max-width: 25vw;
+    max-width: 30vw;
     height: auto;
 }
 
-.textGap{
-    margin-right: 3vh;
+.imgTwo{
+    min-width: 20vw;
+    width: 99vw;
 }
 
 .rowImg{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    max-width: 100%;
+    justify-content: space-around;
 }
 
 .textRow{
     display: flex;
     flex-direction: row;
+    gap: 10%;
+    justify-content: space-between;
+    max-width: 40vw;
+}
+
+.textGap{
+    margin-bottom: 0%;
 }
 
 .noBotMargin{
     margin-bottom: 0px;
-    margin-top: 6vh;
+    display: flex;
+    text-align: center;
 }
 
 .textLink{
     text-decoration: none;
     color: black;
-    
-    
+    max-width: 40%;
+    height: auto;
 }
 
-@media(max-width:550px){
+.textAlign{
+    display: flex;
+    text-align: center;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width:690px){
     .rowImg{
         flex-direction: column;
         align-items: center;
@@ -104,5 +136,41 @@
 
     .box{
         width: auto;
+    }
+
+    .img{
+        scale: 85%;
+    }
+
+    .imgTwo{
+        min-width: 70%;
+    }
+
+    .divBox{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .textRow{
+        max-width: none;
+    }
+}
+
+@media(max-width:400px){
+    .textRow{
+        flex-direction: column;
+    }
+
+    .img{
+        scale: 95%;
+        max-width: 40vw;
+    }
+
+    .textLink{
+        max-width: none;
+    }
+
+    .shadowTwo{
+        width: 100%;
     }
 }
