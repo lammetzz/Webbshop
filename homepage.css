@@ -109,7 +109,6 @@ h2{
 .rowImg{
   display: flex;
   flex-direction: row;
-  gap: 20px;
 }
 
 footer{
@@ -170,12 +169,35 @@ footer{
 }
 
 .homePageBoxRight{
-  max-height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
+
 .homePageBoxLeft{
-  margin-left: 30px;
-  margin-right: 30px;
-  width: 700px;
+  margin-left: 60px;
+  margin-right: 60px;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.imageMaxSize{
+  width: 40%;
+  height: auto;
+}
+
+.rowImage{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcomeHeader{
+
 }
 
 @media (max-width: 790px) {
@@ -185,8 +207,14 @@ footer{
 }
 
 @media (max-width: 400px ) {
+  .welcomeHeader{
+    font-size: 19px;
+  }
   .hiddenIcons {
     display: none;
+  }
+  .centerFooter{
+    font-size: 13.5px;
   }
 }
 
@@ -194,5 +222,27 @@ footer{
   footer {
     flex-direction: column;
     align-items: center;
+  }
+}
+
+@media (max-width: 1040px) {
+  .rowImg {
+    flex-direction: column;
+  }
+  .homePageBoxLeft{
+    max-width: 100%;
+  }
+  .imageMaxSize{
+    width: 150px;
+  }
+  .homePageBoxLeft{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .rowImage{
+    margin-bottom: 40px;
+  }
+  h1{
+    font-size: 25px;
   }
 }
