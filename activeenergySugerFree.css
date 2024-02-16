@@ -3,6 +3,13 @@
   background-color: rgb(255, 255, 255);  
   width: 100%;
   font-size: 11px;
+  position: fixed;
+    top: 0;
+    z-index: 6;
+}
+
+.top{
+  margin-top: 100px;
 }
 
 .noMargin {
