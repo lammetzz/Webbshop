@@ -171,20 +171,27 @@
     }
 }
 
-@media (max-width: 1920px) {
-  .bar {
-    display: none;
-  }
-}
+@media(max-width:540px){
+    .textRow{
+        flex-direction: column;
+    }
 
-@media (max-width: 650px ) {
-  .hidden{
-    display: none;
-  } 
+    .img{
+        scale: 95%;
+        max-width: 40vw;
+    }
 
-  .bar{
-    display: block;
-  }
+    .textLink{
+        max-width: 50vw;
+    }
+
+    .shadowTwo{
+        width: 100%;
+    }
+
+    .noBotMargin{
+        height: 20%;
+    }
 }
 
 .up {
@@ -373,7 +380,7 @@
       display: block;
     }
   }  
-
+  
   @media (max-width: 400px ) {
   .centerFooter{
     font-size: 13.5px;
