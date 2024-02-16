@@ -169,16 +169,35 @@
       }
   }
 
-  @media (max-width: 400px ) {
+  @media (max-width: 560px ) {
     .hidden {
-        display: none;
+        width: 40px;
+        font-size: 5px;
       }
 
-    .centerFooter{
-        font-size: 13.5px;
+      .noText{
+        font-size: 12px;
       }
+
+      .logoText{
+        font-size: 20px;
+      }
+
+      .logo{
+        width: 180px;
+      }
+
+      .display{
+        width: 127px;
+      }
+
   }
 
+  @media (max-width: 400px ) {
+  .centerFooter{
+    font-size: 13.5px;
+  }
+}
   @media (max-width: 600px) {
     footer {
       flex-direction: column;
@@ -195,11 +214,15 @@
 }
 
 .img{
-    height: 50vh;
+    height: 45vh;
 }
 
 .text{
     font-size: 25px;
+}
+
+.left{
+    margin-right: 45px;
 }
 
 .border{
@@ -239,6 +262,6 @@
     }
 
     .img{
-        height: 27vh;
+        height: 25vh;
     }
 }

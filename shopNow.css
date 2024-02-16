@@ -164,20 +164,43 @@
   }
 
   @media (max-width: 790px) {
-    .hidden {
-      display: none;
-    }
-  }
-
-  @media (max-width: 400px ) {
     .hiddenIcons {
       display: none;
     }
+  }
+
+  @media (max-width: 560px ) {
+    .hidden {
+        width: 40px;
+        font-size: 5px;
+      }
+
+      .noText{
+        font-size: 12px;
+      }
+
+      .logoText{
+        font-size: 20px;
+      }
+
+      .logo{
+        width: 180px;
+      }
+
+      .display{
+        width: 127px;
+      }
 
     .centerFooter{
-      font-size: 13.5px;
-    }
+        font-size: 13.5px;
+      }
   }
+
+  @media (max-width: 400px ) {
+  .centerFooter{
+    font-size: 13.5px;
+  }
+}
 
   @media (max-width: 600px) {
     footer {
