@@ -164,15 +164,15 @@
   }
 
   @media (max-width: 790px) {
-    .hidden {
-      display: none;
-    }
+    .hiddenIcons {
+        display: none;
+      }
   }
 
   @media (max-width: 400px ) {
-    .hiddenIcons {
-      display: none;
-    }
+    .hidden {
+        display: none;
+      }
 
     .centerFooter{
         font-size: 13.5px;
@@ -221,7 +221,7 @@
 }
 
 .background{
-    background-image: url(redWhite.jpg);
+    background-image: url(whiteGray.jpg);
     background-size: cover;
 }
 
@@ -239,6 +239,6 @@
     }
 
     .img{
-        height: 38vh;
+        height: 27vh;
     }
 }
