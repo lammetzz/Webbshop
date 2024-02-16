@@ -133,7 +133,13 @@
     display: flex;
     justify-content: center;
     font-size: 25px;
-    margin-top: 6vh;
+    margin-bottom: 0%;
+}
+
+.textTwo{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
     margin-bottom: 0%;
 }
 
@@ -363,6 +369,10 @@
     .hiddenIcons {
       display: none;
     }
+
+    .centerFooter{
+        font-size: 13.5px;
+      }
   }
 
   @media (max-width: 600px) {

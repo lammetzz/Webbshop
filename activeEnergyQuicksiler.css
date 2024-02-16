@@ -173,6 +173,10 @@
     .hiddenIcons {
       display: none;
     }
+
+    .centerFooter{
+        font-size: 13.5px;
+      }
   }
 
   @media (max-width: 600px) {
@@ -181,3 +185,60 @@
       align-items: center;
     }
   }
+
+.product{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.img{
+    height: 50vh;
+}
+
+.text{
+    font-size: 25px;
+}
+
+.border{
+    border: 0.2vh solid rgb(0, 0, 0);
+    border-radius: 5vh;
+    background-color: rgb(106, 102, 102);
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+}
+
+.border:hover{
+    scale: 1.1;
+    transition: 0.3s ease-in-out;
+}
+
+.background{
+    background-image: url(redWhite.jpg);
+    background-size: cover;
+}
+
+@media(max-width:490px){
+    .button{
+        scale: 85%;
+    }
+
+    .border{
+        scale: 85%;
+    }
+
+    .text{
+        scale: 85%;
+    }
+
+    .img{
+        height: 38vh;
+    }
+}

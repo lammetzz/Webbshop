@@ -184,6 +184,10 @@
     .hiddenIcons {
       display: none;
     }
+
+    .centerFooter{
+      font-size: 13.5px;
+    }
   }
   
   @media (max-width: 600px) {
