@@ -195,8 +195,7 @@
     .bar{
       display: block;
     }
-  }
-  
+  }  
 
   @media (max-width: 400px ) {
   .centerFooter{
